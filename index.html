@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href= "assets/css/style.css">
+    <title>Crystal Collector</title>
+    <script type="text/Javascript" src= "https://cdjn.cloudFlare.com/ajax/Libs/jquery3.2.1/jquery.min.js"></script>
+    <!-- <script type="assets/javascript/game.js"></script> -->
+    <embed name="Harvest of Tea" src="https://www.youtuberepeater.com/watch?v=gYJEFCFdAaw#gsc.tab=0" width="0" height="0" loop="false" autostart="false">
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <style>
+                body {
+                    background-image: url(https://image.freepik.com/free-photo/blue-green-pink-shiny-diamonds-with-shadow-white-background_23-2147949128.jpg)
+                }
+                    </style>
+                   <div class="left_container"></div>                     
+
+                    <div class = "container Centered">
+
+                        <div class = heading>
+                               <h1><strong>Crystals Collector</strong></h1>
+                               </div>
+                               <div class = "rules"></div>
+                      <h2>Instructions</h2>
+                      <p>You will be given a random number at the start of the game.</p>
+                      <p>There are four crystals below. By clicking on a crystal, you'll add specific amount of points to your total score.</p>
+                      <p>You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</p>
+                      <p>The value of each crystal is hidden from you until you click on it.</p>
+                      <p>The value of each crystal changes every time the game restarts.</p>
+                          <div class="crystals-array">  
+                <button id= "sapphire" value="0"><img src="http://clipart-library.com/data_images/363853.png" class="img-responsive icons" alt="Sauda" width=55 height =55></button>
+                <button id= "gem" value="0"><img src="http://clipart-library.com/data_images/363844.png" class="img-responsive icons" alt="Sauda" width=55 height=55></button>
+                <button id= "emerald" value="0"><img src="http://clipart-library.com/data_images/363890.png" class="img-responsive icons" alt="Sauda" width=55 height= 55></button>
+                <button id="ruby" value="0"><img src="http://clipart-library.com/data_images/363902.png" class="img-responsive icons" alt="Sauda" width=55 height= 55></button>
+                          </div>
+                
+          
+    <div class= "randomNumber" id = "randNum"></div> 
+     <h5>Random Number</h5> 
+<div class = right_container></div>
+    <div class="total-score">
+        <div>Your total score is:</div>
+        <br>
+        <div id="totScore">0</div>
+    </div>
+
+        <div class="wins-loses">
+            <p>Wins:</p>
+            <p id="wins">0</p>
+            <p>Losses:</p>
+            <p id="losses">0</p>
+        </div>
+
+    </main>
+
+    <footer class="footer">Copyright &copy; 2019</footer>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </body>
+
+
+</html>

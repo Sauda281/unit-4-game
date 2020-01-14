@@ -1,0 +1,208 @@
+.heading {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 45px;
+    font-family: 'pacifico', cursive;
+
+}
+
+.crystals-array {
+    text-align: center;
+    background-color: teal;
+    border: solid;
+    width: 50%;
+    opacity: 0.9;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 3% 0 0 25%;
+}
+.box {
+    margin: 50px auto 50px auto;
+}
+
+
+body {
+    width: 960px;
+    height: 700px;
+}
+
+hr {
+    border: solid;
+    color: orange;
+}
+p {
+    color: black ;
+}
+
+.jumbotron {
+    background-color: beige;
+}
+.randomNumber {
+    border: solid powderblue;
+    background-color: powderblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3em;
+    float: center;
+}
+
+.container {
+    width: 750px;
+    height: 750px;
+    background:pink;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    opacity: 0.7;
+    float: right;
+    box-shadow:10px;
+
+}
+
+.Centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.rules{
+  font-family: cursive;
+  text-align: center;
+} 
+
+.wins-loses {
+  text-align: center;
+  background-color:orange;
+  border: solid orange;
+  width: 50%;
+  opacity: 0.9;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 3% 0 0 25%;
+}
+
+.total-score {
+  text-align: center;
+  background-color: tan;
+  border: solid tan;
+  width: 50%;
+  opacity: 0.9;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 3% 0 0 25%;
+}
+
+
+  
+.heading {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-family: 'pacifico', cursive;
+
+}
+
+.crystals-array {
+    text-align: center;
+    background-color: teal;
+    border: solid;
+    width: 50%;
+    opacity: 0.9;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 3% 0 0 25%;
+}
+.box {
+    margin: 50px auto 50px auto;
+}
+
+
+body {
+    width: 960px;
+    height: 700px;
+}
+
+hr {
+    border: solid;
+    color: orange;
+}
+p {
+    color:rgb(0, 34, 128) ;
+}
+
+.jumbotron {
+    background-color: beige;
+}
+.randomNumber {
+    border: solid powderblue;
+    background-color: powderblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3em;
+    float: center;
+}
+
+.container {
+    width: 750px;
+    height: 750px;
+    background:pink;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    opacity: 0.7;
+    float: right;
+    box-shadow:10px;
+
+}
+
+.Centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.instructions {
+  border: solid
+  color: black;
+  width: 50%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 3% 0 0 25%;
+  font-family: cursive;
+}
+
+.wins-loses {
+  text-align: center;
+  background-color:orange;
+  border: solid orange;
+  width: 50%;
+  opacity: 0.9;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 3% 0 0 25%;
+}
+
+.total-score {
+  text-align: center;
+  background-color: tan;
+  border: solid tan;
+  width: 50%;
+  opacity: 0.9;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 3% 0 0 25%;
+}
+
+
+  
