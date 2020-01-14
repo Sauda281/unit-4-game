@@ -19,36 +19,56 @@
                     background-image: url(https://image.freepik.com/free-photo/blue-green-pink-shiny-diamonds-with-shadow-white-background_23-2147949128.jpg)
                 }
                     </style>
-                   <div class="left_container"></div>                     
+                    <!-- <div class = container> -->
+                        
+                   <div class="left_container"></div>                       
 
-                    <div class = "container Centered">
+                    <div class = "container Centered"> 
 
-                        <div class = heading>
+                    <div class = heading> 
                                <h1><strong>Crystals Collector</strong></h1>
                                </div>
-                               <div class = "rules"></div>
-                      <h2>Instructions</h2>
-                      <p>You will be given a random number at the start of the game.</p>
+                               <div class = "instructions">
+                       <p></p><h2>Instructions</h2></p>
+                      <p>You will be given a random number at the start of the game.</p> 
                       <p>There are four crystals below. By clicking on a crystal, you'll add specific amount of points to your total score.</p>
                       <p>You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</p>
                       <p>The value of each crystal is hidden from you until you click on it.</p>
                       <p>The value of each crystal changes every time the game restarts.</p>
-                          <div class="crystals-array">  
+                               </div>
+                    
+                      <div class="crystals-array">  
                 <button id= "sapphire" value="0"><img src="http://clipart-library.com/data_images/363853.png" class="img-responsive icons" alt="Sauda" width=55 height =55></button>
                 <button id= "gem" value="0"><img src="http://clipart-library.com/data_images/363844.png" class="img-responsive icons" alt="Sauda" width=55 height=55></button>
                 <button id= "emerald" value="0"><img src="http://clipart-library.com/data_images/363890.png" class="img-responsive icons" alt="Sauda" width=55 height= 55></button>
                 <button id="ruby" value="0"><img src="http://clipart-library.com/data_images/363902.png" class="img-responsive icons" alt="Sauda" width=55 height= 55></button>
                           </div>
+                        
                 
-          
+ 
+ </div>
     <div class= "randomNumber" id = "randNum"></div> 
      <h5>Random Number</h5> 
-<div class = right_container></div>
+     <div id = "container_left">
+            <!-- <style> -->
+                <!-- #container_left { -->
+                   <!-- float: left; -->
+               <!-- } -->
+                   <!-- </style> -->
+    
+<!-- <div class = right_container circle></div> -->
     <div class="total-score">
         <div>Your total score is:</div>
         <br>
         <div id="totScore">0</div>
     </div>
+ 
+ <div id = "container_right"></div>
+        <!-- <style> -->
+                <!-- #container_left { -->
+                    <!-- float: right; -->
+                <!-- } -->
+                    <!-- </style> -->
 
         <div class="wins-loses">
             <p>Wins:</p>
@@ -56,10 +76,11 @@
             <p>Losses:</p>
             <p id="losses">0</p>
         </div>
+                    </div>
 
-    </main>
+    <!-- </main> -->
 
-    <footer class="footer">Copyright &copy; 2019</footer>
+    <!-- <footer class="footer">Copyright &copy; 2019</footer> -->
 
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
