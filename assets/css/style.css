@@ -121,6 +121,7 @@ p {
     font-size: 3em;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    float: none;
 
 }
 
