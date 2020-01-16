@@ -38,11 +38,13 @@ $(document).ready(() => {
       if (totScore === randomNumber) {
         console.log("win")
           win();
+          alert("You win!");
           reset();
           resetTwo();
       } else if (totScore > randomNumber) {
         console.log("lose")
           lose();
+          alert("You lose!");
           reset();
           resetTwo();
       }
@@ -55,10 +57,12 @@ $(document).ready(() => {
       $('#totScore').text(totScore);
       if (totScore === randomNumber) {
           win();
+          alert("You win!");
           reset();
           resetTwo();
       } else if (totScore > randomNumber) {
           lose();
+          alert("You lose!");
           reset();
           resetTwo();
       }
@@ -69,10 +73,12 @@ $(document).ready(() => {
       $('#totScore').text(totScore);
       if (totScore === randomNumber) {
           win();
+          alert("You win!");
           reset();
           resetTwo();
       } else if (totScore > randomNumber) {
           lose();
+          alert("You lose!");
           reset();
           resetTwo();
       }
@@ -83,10 +89,12 @@ $(document).ready(() => {
       $('#totScore').text(totScore);
       if (totScore === randomNumber) {
           win();
+          alert("You win!");
           reset();
           resetTwo();
       } else if (totScore > randomNumber) {
           lose();
+          alert("You lose!");
           reset();
           resetTwo();
       }
