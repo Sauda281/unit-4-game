@@ -61,6 +61,7 @@ p {
   overflow: hidden;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  box-shadow: blue 10px 5px;
   
 }
 
@@ -78,18 +79,20 @@ p {
   overflow: hidden;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  box-shadow: blue 10px 5px;
   
 }
 
 .crystals-array {
     text-align: center;
     background-color: teal;
-    border: solid teal;
+    border: solid white;
     width: 50%;
     opacity: 0.9;
     padding-bottom: 5px;
     padding-top: 5px;
     margin: 3% 0 0 25%;
+    box-shadow: white 10px 5px;
 }
 .box {
     margin: 50px auto 50px auto;
@@ -122,6 +125,7 @@ p {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     float: none;
+    box-shadow: cornflowerblue 10px 5px;
 
 }
 
@@ -181,6 +185,7 @@ p {
   opacity: 0.8;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  box-shadow: aquamarine 5px 10px;
 }
 
 
